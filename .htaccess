@@ -1,0 +1,6 @@
+
+RewriteEngine On
+
+Options +MultiViews
+
+RewriteRULE ^page/([-a-zA-Z0-9]+)$ index.php?page=$1
